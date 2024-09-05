@@ -18,7 +18,7 @@ Response Body Success :
 ```json
 {
   "status_code": 200,
-  "message": "otp berhasil dikirim silahkan cek email anda",
+  "message": "berhasil",
   "data":[
     {
       "userId":"1",
@@ -28,7 +28,7 @@ Response Body Success :
 }
 ```
 
-Endpoint : POST /register
+Endpoint : POST /register(khusus owner aja sekalian bikin toko pusat)
 
 Request Body :
 ```json
@@ -48,11 +48,10 @@ Response Body Success :
 ```json
 {
   "status_code": 200,
-  "message": "otp berhasil dikirim silahkan cek email anda",
+  "message": "berhasil",
   "data":[
     {
       "userId":"1",
-      "role":"owenr",
       "idToko":"1"
     }
   ]

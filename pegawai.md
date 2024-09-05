@@ -24,12 +24,6 @@ Response Body Success :
 {
   "status_code": 200,
   "message": "berhasil",
-  "data":[
-    {
-      "pegawaiId":"1",
-      "idToko":"1"
-    }
-  ]
 }
 ```
 
